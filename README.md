@@ -2,5 +2,32 @@
 
 ### Channel difference transformer for face anti-spoofing
 
-## Overview of the proposed Channel Difference Self-Attention (CDSA). In addition to the original queries \textbf{q}, keys \textbf{k}, and values \textbf{v} in Self-Attention (SA)  \cite{vaswani2017attention}, CDSA further includes the channel-wise differences $\hat{\textbf{z}}$ to obtain the projected $ \hat{\textbf{q}} $, $ \hat{\textbf{k} }$ and $ \hat{\textbf{v}} $, and then aggregates both $[ \textbf{q},  \textbf{k}, \textbf{v} ]$ and $[\hat{\textbf{q}},  \hat{\textbf{k} },  \hat{\textbf{v}} ] $ for modeling long-range data dependencies.
+## Overview of the proposed Channel Difference Self-Attention (CDSA).
 ![plot](figures/CDSA.png)
+
+
+## Multi-Head Channel Difference Self-Attention (MCDSA) consists of k CDSA operations running in parallel.
+![plot](figures/MCDSA.png)
+
+## Requirements
+```
+numpy==1.23.3
+pytz==2022.4
+requests==2.28.1
+scikit_learn==1.2.0
+timm==0.6.7
+torch==1.10.1
+torchvision==0.11.2
+```
+
+## Training & Testing
+Run `train.py` to train LDCformer
+
+Run `test.py` to test LDCformer
+
+## Citation
+
+If you use the LDCformer/Decoupled-LDC, please cite the paper:
+```
+
+```
