@@ -2,6 +2,8 @@
 
 ### Channel difference transformer for face anti-spoofing
 
+This is the first work focusing on exploring  semantically complementary channel information  to enhance the discriminability of channel-wise features for face anti-spoofing. 
+
 ## Overview of the proposed Channel Difference Self-Attention (CDSA).
 ![Screenshot](figures/CDSA.png)
 
