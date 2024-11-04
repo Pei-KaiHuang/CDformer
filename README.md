@@ -3,11 +3,11 @@
 ### Channel difference transformer for face anti-spoofing
 
 ## Overview of the proposed Channel Difference Self-Attention (CDSA).
-![plot](figures/CDSA.png)
+![Screenshot](figures/CDSA.png)
 
 
 ## Multi-Head Channel Difference Self-Attention (MCDSA) consists of k CDSA operations running in parallel.
-![plot](figures/MCDSA.png)
+![Screenshot](figures/MCDSA.png)
 
 ## Requirements
 ```
