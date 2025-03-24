@@ -31,5 +31,12 @@ Run `test.py` to test LDCformer
 
 If you use the LDCformer/Decoupled-LDC, please cite the paper:
 ```
-
+@article{huang2025channel,
+  title={Channel difference transformer for face anti-spoofing},
+  author={Huang, Pei-Kai and Chong, Jun-Xiong and Hsu, Ming-Tsung and Hsu, Fang-Yu and Hsu, Chiou-Ting},
+  journal={Information Sciences},
+  pages={121904},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
